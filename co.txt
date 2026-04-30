@@ -1,0 +1,5 @@
+Remove-Item .npmrc
+npm install three@0.168.0
+npm config set legacy-peer-deps true
+npx shadcn@latest add @react-bits/ShinyText-JS-CSS
+npm config set legacy-peer-deps false

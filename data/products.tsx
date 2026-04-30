@@ -1,0 +1,11 @@
+export const PRODUCTS = [
+  { id: 1, name: "Leather Duffle Bag", price: 23, originalPrice: 25, discount: 12,  image: "https://images.pexels.com/photos/8140898/pexels-photo-8140898.jpeg?_gl=1*8e97e3*_ga*MjI3MTgwMzYyLjE3NzY1NzM4NTU.*_ga_8JE65Q40S6*czE3NzY1NzM4NTUkbzEkZzEkdDE3NzY1NzM5MDkkajYkbDAkaDA." },
+  { id: 2, name: "Mac Waist Bag",      price: 23, originalPrice: 25, discount: 12,  image: "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8c25lYWtlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" },
+  { id: 3, name: "Karia Briefcase",    price: 23, originalPrice: 25, discount: 12,  image: "https://images.pexels.com/photos/12243554/pexels-photo-12243554.jpeg?_gl=1*1m4v8gw*_ga*MjI3MTgwMzYyLjE3NzY1NzM4NTU.*_ga_8JE65Q40S6*czE3NzY1NzM4NTUkbzEkZzEkdDE3NzY1NzQyMjAkajUxJGwwJGgw" },
+  { id: 4, name: "Wildcraft Pack",     price: 23, originalPrice: 25, discount: 12,  image: "https://images.pexels.com/photos/9149042/pexels-photo-9149042.jpeg?_gl=1*1m4v8gw*_ga*MjI3MTgwMzYyLjE3NzY1NzM4NTU.*_ga_8JE65Q40S6*czE3NzY1NzM4NTUkbzEkZzEkdDE3NzY1NzQyMjAkajUxJGwwJGgw" },
+  { id: 5, name: "Canvas Tote",        price: 18, originalPrice: 22, discount: 18, image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" },
+  { id: 6, name: "Urban Sling",        price: 31, originalPrice: 38, discount: 18, image: "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cHJvZHVjdHxlbnwwfHwwfHx8MA%3D%3D" },
+  { id: 7, name: "Weekend Roller",     price: 54, originalPrice: 65, discount: 17,  image: "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D" },
+  { id: 8, name: "Mini Crossbody",     price: 16, originalPrice: 20, discount: 20, image: "https://images.unsplash.com/photo-1491553895911-0055eca6402d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2R1Y3R8ZW58MHx8MHx8fDA%3D" },
+];
+ 
