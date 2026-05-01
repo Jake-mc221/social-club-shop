@@ -10,7 +10,7 @@ export default function ProductGrid({ products, onAddToCart } : Props) {
   return (
     <div className="flex flex-wrap bg-transparent">
       {products.map((product) => (
-        <div className="w-1/2 px-1 py-1" key={product.id}>
+        <div className="w-1/2 px-1 py-2" key={product.id}>
           
           <ProductCard product={product} onAddToCart={onAddToCart} />
         </div>

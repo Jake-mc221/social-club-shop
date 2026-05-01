@@ -8,11 +8,11 @@ interface Props {
 export default function ProductCard({ product, onAddToCart }: Props) {
   return (
     <FadeIn delay={0.1} duration={0.6} translateY={40}>
-      <div className="relative p-3 border border-[#3a3a3a] border-t-[#555] font-serif bg-black/60 flex flex-col gap-3">
-        <span className="absolute -top-px -left-px w-[3px] h-[3px] bg-[#555] block" />
-        <span className="absolute -top-px -right-px w-[3px] h-[3px] bg-[#555] block" />
-        <span className="absolute -bottom-px -left-px w-[3px] h-[3px] bg-[#555] block" />
-        <span className="absolute -bottom-px -right-px w-[3px] h-[3px] bg-[#555] block" />
+      <div className="relative p-3 border border-[#858585] border-t-[#858585] font-serif bg-black/60 flex flex-col gap-3">
+        <span className="absolute -top-px -left-px w-[3px] h-[3px] bg-[#858585] block" />
+        <span className="absolute -top-px -right-px w-[3px] h-[3px] bg-[#858585] block" />
+        <span className="absolute -bottom-px -left-px w-[3px] h-[3px] bg-[#858585] block" />
+        <span className="absolute -bottom-px -right-px w-[3px] h-[3px] bg-[#858585] block" />
         
         <div className="relative w-full h-48 overflow-hidden bg-[#2a2a2a]">
           
@@ -30,7 +30,7 @@ export default function ProductCard({ product, onAddToCart }: Props) {
 
         <button
           onClick={() => onAddToCart(product.id)}
-          className="w-full py-2 rounded-full bg-[#2a2a2a] border border-[#3a3a3a] text-[#aaa] text-xs font-bold tracking-wide hover:bg-[#333] transition-colors"
+          className="w-full py-2  bg-[#2a2a2a] border border-[#3a3a3a] text-[#aaa] text-xs font-bold tracking-wide hover:bg-[#333] transition-colors"
         >
           + Add to Cart
         </button>

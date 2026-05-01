@@ -13,7 +13,7 @@ export default function LogoClient(props: React.ComponentProps<typeof Logo>) {
     <div style={{ width: props.width ?? 300, height: props.height ?? 300, position: 'relative' }}>
       {!ready && (
         <div className="absolute inset-0 flex items-center justify-center">
-          <PulseSpinner size={props.height / 4} color="#fff" />
+          <PulseSpinner size={(props.height ?? 300) / 4} color="#fff" />
         </div>
       )}
       <Logo {...props} onLoad={() => setReady(true)} />

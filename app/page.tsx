@@ -117,28 +117,28 @@ export default function Home() {
         <div className="flex flex-row gap-1 justify-center px-2 py-2">
           <button
             onClick={() => setSortBy ('alpha')}
-            className={`text-[#888] text-xs font-bold font-serif border border-[#3a3a3a]  px-4 py-2 ${sortBy === 'alpha' ? 'bg-white text-black' : ''}`}
+            className={`text-[#888] text-xs font-bold font-serif border border-[#858585]  px-4 py-2 ${sortBy === 'alpha' ? 'bg-white text-black' : ''}`}
             style={{ WebkitTapHighlightColor: 'transparent' }}
           >
             Alphabetical
           </button>
           <button
             onClick={() => setSortBy('price-desc')}
-            className={`text-[#888] text-xs font-bold font-serif border border-[#3a3a3a]  px-4 py-2 ${sortBy === 'price-desc' ? 'bg-white text-black' : ''}`}
+            className={`text-[#888] text-xs font-bold font-serif border border-[#858585]  px-4 py-2 ${sortBy === 'price-desc' ? 'bg-white text-black' : ''}`}
             style={{ WebkitTapHighlightColor: 'transparent' }}
           >
             Price: High -{'>'} Low
           </button>
           <button
             onClick={() => setSortBy('price-asc')}
-            className={`text-[#888] text-xs font-bold font-serif border border-[#3a3a3a]  px-4 py-2 ${sortBy === 'price-asc' ? 'bg-white text-black' : ''}`}
+            className={`text-[#888] text-xs font-bold font-serif border border-[#858585]  px-4 py-2 ${sortBy === 'price-asc' ? 'bg-white text-black' : ''}`}
             style={{ WebkitTapHighlightColor: 'transparent' }}
           >
             Price: Low -{'>'} high
           </button>
           <button
             onClick={() => setSortBy('default')}
-            className={`text-[#888] text-xs font-bold font-serif border border-[#3a3a3a]  px-4 py-2 ${sortBy === 'default' ? 'bg-white text-black' : ''}`}
+            className={`text-[#888] text-xs font-bold font-serif border border-[#858585]  px-4 py-2 ${sortBy === 'default' ? 'bg-white text-black' : ''}`}
             style={{ WebkitTapHighlightColor: 'transparent' }}
           >
             Reset
